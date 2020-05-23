@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body {
+ 			background-image: url("../static/im.jpg");
+ 			}
+ 		p{
+ 			text-align: center;
+ 			color: #bff542;
+ 			font-size: 39px;
+ 		}	
+
+	div.gallery {
+  	margin: 25px;
+  	border: 1px solid #ccc;
+  	float: left;
+
+  	
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 350px;
+  height: 350px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+div.upload{
+	text-align: center;
+
+}
+
+
+	</style>
+
+</head>
+<body>
+
+	<p>IMAGE CAPTION GENERATOR</p>
+
+<form action = "/success" method="post" enctype="multipart/form-data">
+
+<div class="gallery">
+   <img src="../static/a.jpg" alt="Cinque Terre" width="600" height="400" name=style-file >
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption1"> 
+        </div>
+</div>
+
+<div class="gallery">
+   <img src="../static/b.jpg" alt="Cinque Terre" width="600" height="400" >
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption2"> 
+        </div>
+
+</div>
+
+<div class="gallery">
+   <img src="../static/c.jpg" alt="Cinque Terre" width="600" height="400" >
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption3"> 
+        </div>
+</div>
+<div class="gallery">
+   <img src="../static/d.jpg" alt="Cinque Terre" width="600" height="400" name="content">
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption4"> 
+        </div>
+</div>
+<div class="gallery">
+   <img src="../static/e.jpg" alt="Cinque Terre" width="600" height="400" name="content">
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption5"> 
+        </div>
+</div>
+<div class="gallery">
+   <img src="../static/f.jpg" alt="Cinque Terre" width="600" height="400" name="content">
+  <div class="desc">Add a description of the image here</div>
+
+        <div class="upload">  
+                <input type=submit name='submit_button' value="Caption6"> 
+        </div>
+</div>
+<div class="gallery">
+   <img src="../static/g.jpg" alt="Cinque Terre" width="600" height="400" name="content">
+  <div class="desc">Add a description of the image here</div>
+  <div class="upload">  
+                <input type=submit name='submit_button' value="Caption7"> 
+        </div>
+
+</div>
+<div class="gallery">
+   <img src="../static/h.jpg" alt="Cinque Terre" width="600" height="400" name="content">
+  <div class="desc">Add a description of the image here</div>
+
+        <div class ="upload">  
+                <input type=submit name='submit_button' value="Caption8"> 
+        </div>
+</div>
+</form>
+</body>
+</html>
